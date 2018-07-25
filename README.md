@@ -19,11 +19,11 @@ Visit http://mourner.github.io/simplify-js/
 https://www.nuget.org/packages/Simplify.NET/
 
 ## API
- **Namespace**: `Simplify.Net`
+ **Namespace**: `Simplify.NET`
  
 | Method | Argument 1 | Argument 2 | Argument 3 |
 |--|--|--|--|
-| SimplifyNet.**Simplify** | **List\<Point\>** points | **double** tolerance *(default: 1)* | **bool** highestQuality *(default: false)* |
+|SimplifyNet.**Simplify** | **List\<Point\>** points | **double** tolerance *(default: 1)* | **bool** highestQuality *(default: false)* |
 |SimplifyNet.**Point** | **double** x | **double** y||
 
 
