@@ -10,6 +10,8 @@
     <Product>Simplify.NET</Product>
     <PackageTags>simplify, simplifyjs, simplify.js, simplify.net, net, .net, simplify-js, polyline, simplification, downsample</PackageTags>
     <PackageLicenseUrl>https://github.com/mourner/simplify-js/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/magnushenning/simplify.net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>

@@ -1,16 +1,9 @@
-﻿/* 
- * Ported to C# by Magnus Henning 
- * (c) 2017, Vladimir Agafonkin
- * Simplify.js, a high-performance JS polyline simplification library
- * mourner.github.io/simplify-js                               
-*/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace SimplifyJS
+namespace Simplify.NET
 {
-    public static class SimplifyJs
+    public static class SimplifyNet
     {
 
         // square distance between 2 points
