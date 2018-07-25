@@ -1,7 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>net45</TargetFramework>
     <Company>Entro AS</Company>
     <Description>Simplify.NET is a high-performance C# polyline simplification library based on Simplify.js</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
@@ -12,6 +16,12 @@
     <PackageLicenseUrl>https://github.com/mourner/simplify-js/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/magnushenning/simplify.net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.2</Version>
+    <ApplicationIcon />
+    <OutputTypeEx>library</OutputTypeEx>
+    <StartupObject />
   </PropertyGroup>
 
 </Project>
