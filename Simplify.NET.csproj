@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>net45</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Entro AS</Company>
     <Description>Simplify.NET is a high-performance C# polyline simplification library based on Simplify.js</Description>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
